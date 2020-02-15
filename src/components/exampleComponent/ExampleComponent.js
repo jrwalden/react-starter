@@ -19,7 +19,7 @@ const Div = styled.div`
   color: #fff;
 `;
 
-ExampleComponent.PropTypes = {
+ExampleComponent.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
 };
